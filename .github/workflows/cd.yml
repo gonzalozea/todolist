@@ -1,0 +1,17 @@
+name: CD - Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main] # Asegúrate de que esta sea tu rama principal (puede ser 'main' o 'master')
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: src # Si tus archivos HTML, CSS y JS están en la raíz
