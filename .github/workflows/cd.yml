@@ -2,7 +2,7 @@ name: CD - Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main] # Asegúrate de que esta sea tu rama principal (puede ser 'main' o 'master')
+    branches: [gh-pages] # Asegúrate de que esta sea tu rama principal (puede ser 'main' o 'master')
 
 jobs:
   deploy:
