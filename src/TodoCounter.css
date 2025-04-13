@@ -1,11 +1,14 @@
 .TodoCounter {
-    font-size: 24px;
-    text-align: center;
-    margin: 0;
-    padding: 48px;
-    font-weight: normal;
-  }
-  
-  .TodoCounter span {
-    font-weight: bold;
-  }
+  font-size: 24px;
+  text-align: center;
+  margin: 0;
+  padding: 48px;
+  font-weight: 400; /* Reemplaza "normal" con valor numérico */
+  color: #333; /* Mejora la legibilidad con un color de texto */
+  line-height: 1.5; /* Mejora el espaciado del texto */
+}
+
+.TodoCounter span {
+  font-weight: 700; /* Reemplaza "bold" con valor numérico */
+  color: #007bff; /* Agrega un color para destacar el span */
+}
