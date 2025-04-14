@@ -1,4 +1,5 @@
-import { BrowserRouter } from 'react-router-dom';
+//imports components
+//import { BrowserRouter } from 'react-router-dom';
 import { TodoCounter } from './TodoCounter';
 import { TodoSearch } from './TodoSearch';
 import { TodoList } from './TodoList';
