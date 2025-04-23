@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://gonzalozea.github.io/todolist",
   "dependencies": {
+    "axios": "^1.8.4",
     "platzi-intro-react-base": "file:",
     "react": "^18",
     "react-dom": "^18",
@@ -38,6 +39,7 @@
   "devDependencies": {
     "@eslint/js": "^9.24.0",
     "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
     "eslint-plugin-react": "^7.37.5",
     "gh-pages": "^6.3.0",
     "globals": "^16.0.0"
