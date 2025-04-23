@@ -1,7 +1,6 @@
 {
   "name": "platzi-intro-react-base",
-  "version": "0.1.0",
-  "homepage": ".",
+  "version": "0.1.0",  
   "dependencies": {
     "axios": "^1.8.4",
     "platzi-intro-react-base": "file:",
@@ -48,11 +47,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gonzalozea/todolist.git"
+    "url": "git+https://github.com/LeoContinental-Sis/ftodolist.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/gonzalozea/todolist/issues"
+    "url": "https://github.com/LeoContinental-Sis/ftodolist/issues"
   }
 }
