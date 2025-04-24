@@ -10,7 +10,7 @@ function NewTodoForm({ onSave, onCancel }) {
 
   const onSaveNewTodo = () => {
     if (newTodoValue.trim()) {
-      axios.post('http://127.0.0.1:8000/api/todos/', { text: newTodoValue })
+      axios.post('https://leosam10.pythonanywhere.com/api/todos/', { text: newTodoValue })
         .then(response => {
           onSave(); // Llamamos a la función para recargar los todos en App.js
           onCancel(); // Cerramos el formulario

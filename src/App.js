@@ -28,7 +28,7 @@ function App() {
   const [openNewTodoModal, setOpenNewTodoModal] = useState(false);
 
   const fetchTodos = () => {
-    axios.get('http://127.0.0.1:8000/api/todos/')
+    axios.get('https://leosam10.pythonanywhere.com/api/todos/')
       .then(response => {
         setTodos(response.data);
       })
@@ -79,7 +79,7 @@ function App() {
 
 
   const completeTodo = (id) => {
-    axios.put(`http://127.0.0.1:8000/api/todos/${id}/`, { completed: true }) // Petición PUT para actualizar el estado de completado
+    axios.put(`https://leosam10.pythonanywhere.com/api/todos/${id}/`, { completed: true }) // Petición PUT para actualizar el estado de completado
       .then(response => {
         // Actualiza el estado local después de la actualización exitosa en el backend
         setTodos(todos.map(todo => {
@@ -104,7 +104,7 @@ function App() {
   // };
 
   const deleteTodo = (id) => {
-    axios.delete(`http://127.0.0.1:8000/api/todos/${id}/`) // Petición DELETE para eliminar el todo
+    axios.delete(`https://leosam10.pythonanywhere.com/api/todos/${id}/`) // Petición DELETE para eliminar el todo
       .then(response => {
         // Actualiza el estado local eliminando el todo
         setTodos(todos.filter(todo => todo.id !== id));
